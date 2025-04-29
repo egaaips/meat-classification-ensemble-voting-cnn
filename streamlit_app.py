@@ -9,7 +9,7 @@ from tensorflow import keras
 # Load label kelas
 @st.cache_data
 def load_labels():
-    labels = np.load("data_split/labels.npy")
+    labels = np.load("labels.npy")
     return labels.tolist()
 
 # Load all models
