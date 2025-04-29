@@ -1,9 +1,23 @@
 # 🎈 Blank app template
+# Klasifikasi Jenis Daging Menggunakan CNN dan Hard Voting Ensemble
 
-A simple Streamlit app template for you to modify!
+Proyek ini bertujuan untuk mengklasifikasikan gambar daging menjadi tiga kategori: daging sapi, kambing, dan babi. Model ini dikembangkan menggunakan arsitektur Convolutional Neural Network (CNN) seperti ResNet50V2, InceptionV3, dan MobileNetV2, serta dikombinasikan dengan metode ensemble learning *hard voting* untuk meningkatkan akurasi klasifikasi.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## 📁 Struktur Folder
 
+/project-folder │ 
+├── data_split/
+│ └── labels.npy 
+├── datasets/
+│ └── daging babi 
+│ └── daging kambing
+│ └── daging babi
+├── model/ 
+│ └── model1_ResNet50V2.keras 
+│ └── model2_InceptionV3.keras 
+│ └── model3_MobileNetV2.keras 
+├── streamlit_app.py 
+└── README.md
 ### How to run it on your own machine
 
 1. Install the requirements
@@ -17,3 +31,6 @@ A simple Streamlit app template for you to modify!
    ```
    $ streamlit run streamlit_app.py
    ```
+
+Catatan: Jika model tidak tersedia karena ukurannya melebihi batas GitHub, silakan unduh melalui tautan berikut:
+📎 [Models-Pretrained](https://drive.google.com/drive/folders/1l6jF-sHaHt7nU6WH4a_ztiJTiJGYzTf-?usp=sharing)
