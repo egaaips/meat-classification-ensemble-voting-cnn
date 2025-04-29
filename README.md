@@ -18,6 +18,7 @@ Proyek ini bertujuan untuk mengklasifikasikan gambar daging menjadi tiga kategor
 │ └── model3_MobileNetV2.keras 
 ├── streamlit_app.py 
 └── README.md
+
 ### How to run it on your own machine
 
 1. Install the requirements
